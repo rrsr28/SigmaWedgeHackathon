@@ -48,6 +48,4 @@ This README provides a high-level overview. For detailed explanations, findings,
 
 **Disclaimer:** This project is for educational and informational purposes only. Algorithmic trading involves risks, and strategies should be thoroughly tested and validated before deployment.
 
-**Author:** [Your Name]
-
-Feel free to contribute, improve, or customize the code based on your requirements. Happy trading!
+**Author:** Sanjay Ram R R
