@@ -1,0 +1,56 @@
+Hackathon Project Report: Optimizing Stock Portfolio Strategies
+
+Introduction:
+This project aimed to develop and optimize algorithmic trading strategies for stock portfolios. The strategies were designed to capitalize on market conditions using QuantRocket for data collection, analysis, and strategy implementation.
+
+Objective:
+The primary objective was to create and evaluate two distinct trading strategies – a Three-State Model based on Transition Probability Matrix (TPM) and a Moving Average (MA) strategy. Both strategies were applied to historical price data of a selected US stock (AAPL).
+
+Strategy Development:
+
+Three-State Model:
+
+Design: The model incorporated three states (Bull, Neutral, Bear) based on daily price returns. The portfolio's optimal decisions were determined using a TPM.
+Implementation: The strategy was executed for a specified period, optimizing the portfolio's value by transitioning between states.
+Moving Average (MA) Strategy:
+
+Design: Utilizing a simple moving average (SMA) with a 15-day window, the strategy aimed to identify buy and sell signals based on price trends.
+Implementation: The strategy's predictions were compared with actual price movements, and buy/sell decisions were visualized.
+Data Collection:
+
+QuantRocket Setup:
+
+The QuantRocket license key was activated.
+A free US stock database ("usstock-free-1d") was created for daily bars.
+Universe Creation:
+
+A universe named "usstock-free" was established based on security identifiers (sids).
+An active universe ("usstock-free-active") was created by filtering out delisted securities.
+AAPL Historical Data:
+
+Historical price data for AAPL was collected, and a CSV file ("aapl_history.csv") was generated for analysis.
+Results and Analysis:
+
+Three-State Model:
+
+Portfolio optimization using TPM demonstrated the ability to make strategic decisions based on transition probabilities.
+The optimized portfolio value for a specified period was calculated, and optimal buy indices were identified.
+Moving Average (MA) Strategy:
+
+Predicted prices using a 15-day SMA were compared with actual prices.
+Buy/sell decisions were visualized, showing alignment between predicted trends and actual price movements.
+Insights and Challenges:
+
+Insights:
+
+The Three-State Model provided insights into potential buy/sell signals based on market conditions.
+The Moving Average strategy demonstrated the effectiveness of trend analysis in decision-making.
+Challenges and Recommendations:
+
+Further refinement of hyperparameters and model optimization is recommended for increased accuracy.
+Incorporating additional features and technical indicators may enhance the robustness of the strategies.
+Conclusion:
+
+This project showcased the application of algorithmic trading strategies using QuantRocket. The combination of a Three-State Model and a Moving Average strategy demonstrated the versatility of quantitative trading approaches. Future iterations will involve refining and expanding strategies for improved performance under various market conditions.
+
+Note: This report provides a high-level overview, and specific details, findings, and recommendations may require adjustments based on project nuances and requirements.
