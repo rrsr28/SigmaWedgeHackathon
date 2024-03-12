@@ -1,6 +1,6 @@
 # SigmaWedgeHackathon
 
-# Algorithmic Trading Strategies with QuantRocket - README
+## Algorithmic Trading Strategies with QuantRocket
 
 ## Overview
 
