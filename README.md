@@ -42,6 +42,8 @@ The project is organized into several key components:
 - matplotlib
 - statsmodels
 
+<hr>
+
 
 # Solution
 
@@ -79,6 +81,8 @@ The project is organized into several key components:
 * Portfolio - 12
 * Optimal BuyIndices - [7, 11, 71, 78, 92, 102, 132, 152, 202, 221, 226, 247]
 
+
+<hr>
 
 
 ## Note
